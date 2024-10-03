@@ -63,6 +63,10 @@ footer {
   text-align: var(--text-align);
 }
 
+li {
+  margin: 0 0 0 2rem;
+}
+
 /* Class Selectors */
 
 .box {
