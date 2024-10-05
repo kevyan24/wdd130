@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #004041;
+  --secondary-color: #FB0100;
+  --accent1-color: #FDD700;
+  --accent2-color: #066F8D;
+}
+
+body {
+  width: 90%;
+  margin: 1rem auto 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.principal {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1,
+.hero article {
+  position: absolute;
+  color: #ffffff;
+}
+
+.hero h1 {
+  top: 5px;
+  background-color: #00404181;
+  width: 100%;
+  text-align: center;
+}
+
+.hero article {
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  background-color: #00404181;
+  padding: 1rem 2rem;
+}
+
+article p {
+  color: #ffffff;
+}
+
+article img {
+  float: right;
+  margin-left: 1rem;
+}
