@@ -8,11 +8,11 @@
   box-sizing: border-box;
 }
 
-footer,
 header,
+footer,
 .grid {
+  margin: 0;
   max-width: 840px;
-  margin: auto;
 }
 
 aside img {
