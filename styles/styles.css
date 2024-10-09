@@ -11,7 +11,7 @@
 header,
 footer,
 .grid {
-  margin: 0;
+  margin: 0 auto;
   max-width: 840px;
 }
 
@@ -23,6 +23,7 @@ aside img {
 aside h2 {
   position: absolute;
   left: 80px;
+  color: #000000;
 }
 
 nav {
@@ -66,10 +67,13 @@ p {
   text-align: left;
 }
 
-footer {
-  margin-top: 15px;
-  border-top: 1px solid #000000;
+footer p {
   text-align: var(--text-align);
+}
+
+footer {
+  border-top: 1px solid #000000;
+  padding-top: 0.5rem;
 }
 
 li {
