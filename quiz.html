@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic HTML & CSS Quiz</title>
+  <meta name="author" content="Kevin Andres Yanez">
+  <meta name="description" content="A simple quiz to test your knowledge of HTML and CSS">
+  <link rel="stylesheet" href="/styles/quiz.css">
+</head>
+
+<body>
+  <main>
+    <h1>Basic HTML & CSS Quiz</h1>
+    <form action="">
+      <!-- Question 1: Multiple choice -->
+      <fieldset>
+        <legend>1. What does HTML stand for?</legend>
+        <label><input type="radio" name="q1" value="a"> Hyper Text Markup Language</label><br>
+        <label><input type="radio" name="q1" value="b"> High Text Markup Language</label><br>
+        <label><input type="radio" name="q1" value="c"> Hyperlinks and Text Markup Language</label><br>
+      </fieldset>
+
+      <!-- Question 2: Dropdown -->
+      <fieldset>
+        <legend>2. Which HTML tag is used to define an internal style sheet?</legend>
+        <select name="q2">
+          <option value="default" disabled selected>Select your answer</option>
+          <option value="a">&lt;style&gt;</option>
+          <option value="b">&lt;css&gt;</option>
+          <option value="c">&lt;script&gt;</option>
+        </select>
+      </fieldset>
+
+      <!-- Question 3: True or False -->
+      <fieldset>
+        <legend>3. True or False: CSS stands for Cascading Style Sheets.</legend>
+        <label><input type="radio" name="q3" value="true"> True</label><br>
+        <label><input type="radio" name="q3" value="false"> False</label><br>
+      </fieldset>
+
+      <!-- Question 4: Checkbox -->
+      <fieldset>
+        <legend>4. Which of the following are valid HTML tags? (Select all that apply)</legend>
+        <label><input type="checkbox" name="q4" value="a"> &lt;div&gt;</label><br>
+        <label><input type="checkbox" name="q4" value="b"> &lt;image&gt;</label><br>
+        <label><input type="checkbox" name="q4" value="c"> &lt;p&gt;</label><br>
+        <label><input type="checkbox" name="q4" value="d"> &lt;header&gt;</label><br>
+      </fieldset>
+
+      <!-- Question 5: Open-ended -->
+      <fieldset>
+        <legend>5. What is the purpose of the <code>alt</code> attribute in an image tag?</legend>
+        <textarea name="q5" rows="4" cols="50"></textarea>
+      </fieldset>
+
+      <!-- Question 6: Fill in the blank -->
+      <fieldset>
+        <legend>6. Fill in the blank: The CSS property used to change the background color is __________.</legend>
+        <input type="text" name="q6">
+      </fieldset>
+
+      <!-- Question 7: Dropdown -->
+      <fieldset>
+        <legend>7. Which HTML element is used to define a footer for a document or section?</legend>
+        <select name="q7">
+          <option value="default" disabled selected>Select your answer</option>
+          <option value="a">&lt;footer&gt;</option>
+          <option value="b">&lt;bottom&gt;</option>
+          <option value="c">&lt;section&gt;</option>
+        </select>
+      </fieldset>
+
+      <!-- Question 8: True or False -->
+      <fieldset>
+        <legend>8. True or False: You can use multiple CSS classes on the same HTML element.</legend>
+        <label><input type="radio" name="q8" value="true"> True</label><br>
+        <label><input type="radio" name="q8" value="false"> False</label><br>
+      </fieldset>
+
+      <!-- Question 9: Dropdown -->
+      <fieldset>
+        <legend>9. What is the correct HTML for adding a background color?</legend>
+        <select name="q9">
+          <option value="default" disabled selected>Select your answer</option>
+          <option value="a">&lt;body style="background-color:blue;"&gt;</option>
+          <option value="b">&lt;background color="blue"&gt;</option>
+          <option value="c">&lt;body background="blue"&gt;</option>
+        </select>
+      </fieldset>
+
+      <!-- Question 10: Open-ended -->
+      <fieldset>
+        <legend>10. Describe what the <code>div</code> tag is used for in HTML.</legend>
+        <textarea name="q10" rows="4" cols="50"></textarea>
+      </fieldset>
+
+      <button type="submit">Submit Quiz</button>
+    </form>
+  </main>
+</body>
+
+</html>
